@@ -14,3 +14,6 @@ https://www.elastic.co/guide/en/kibana/4.0/setup.html
 Choose version 4.0.0 https://www.elastic.co/downloads/past-releases
 extract 
 and start ./kibana-4.0.0-linux-x64/bin/kibana
+
+
+Kibana http://localhost:5601
