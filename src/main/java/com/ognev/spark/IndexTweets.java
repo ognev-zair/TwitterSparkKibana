@@ -22,7 +22,7 @@ import com.fasterxml.jackson.databind.ObjectMapper;
 import com.ognev.spark.pojo.Tweet;
 
 public class IndexTweets {
-
+/*
     public static void main(String[] args) throws Exception {
         DetectorFactory.loadProfile("/home/cloudera/Downloads/spark-sandbox-master/profiles");
 
@@ -62,4 +62,5 @@ public class IndexTweets {
         detector.append(text);
         return detector.detect();
     }
+    */
 }

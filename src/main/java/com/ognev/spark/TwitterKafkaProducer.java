@@ -43,14 +43,12 @@ public class TwitterKafkaProducer {
 
         Authentication auth = new OAuth1(consumerKey, consumerSecret, token,
                 secret);
-        // Authentication auth = new BasicAuth(username, password);
 
-        // Create a new BasicClient. By default gzip is enabled.
         Client client = new ClientBuilder().hosts(Constants.STREAM_HOST)
                 .endpoint(endpoint).authentication(auth)
                 .processor(new StringDelimitedProcessor(queue)).build();
 
-        // Establish a connection
+
         client.connect();
         
         Timer timer = new Timer();
@@ -70,10 +68,8 @@ public class TwitterKafkaProducer {
 
         timer.schedule(myTask, 2000, 2000);
 
-        // Do whatever needs to be done with messages
-      
-    //    producer.close();
-     //   client.stop();
+     
+
     }
 
     public static void main(String[] args) {
