@@ -1,4 +1,4 @@
-/*
+
 package com.ognev.spark;
 
 
@@ -87,4 +87,3 @@ public class TwitterHbaseTable
 
 	       
 }
-*/
