@@ -1,2 +1,6 @@
-IndexTweets.class
-com/seigneurin/spark/WikipediaMapReduceByKey$1.class
+com/ognev/spark/IndexTweets.class
+com/ognev/spark/SparkStreamMain.class
+com/ognev/spark/TwitterKafkaProducer$1.class
+com/ognev/spark/KafkaStreaming.class
+com/ognev/spark/TwitterKafkaProducer.class
+com/ognev/spark/pojo/Tweet.class

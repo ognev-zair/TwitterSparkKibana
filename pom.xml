@@ -5,7 +5,6 @@
     <groupId>com.ognev</groupId>
     <artifactId>spark-bdt</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <url>http:mave.apache.org</url>
 
     <properties>
         <java.version>1.8</java.version>
@@ -130,14 +129,7 @@
       <artifactId>hbc-core</artifactId> <!-- or hbc-twitter4j -->
       <version>2.2.0</version> <!-- or whatever the latest version is -->
     </dependency>
-    
 
-<dependency>
-        <groupId>org.apache.hbase</groupId>
-        <artifactId>hbase</artifactId>
-        <version>1.2.0</version>
-        <type>pom</type>
-    </dependency>
 
 <!-- https://mvnrepository.com/artifact/org.apache.hbase/hbase-spark -->
 

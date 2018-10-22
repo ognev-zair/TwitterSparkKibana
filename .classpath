@@ -29,9 +29,5 @@
 		</attributes>
 	</classpathentry>
 	<classpathentry kind="src" path="/langdetect"/>
-	<classpathentry kind="lib" path="/usr/lib/hbase/hbase-common-1.2.0-cdh5.13.0.jar"/>
-	<classpathentry kind="lib" path="/usr/lib/hbase/hbase-client-1.2.0-cdh5.13.0.jar"/>
-	<classpathentry kind="lib" path="/usr/lib/hbase/hbase-protocol.jar"/>
-	<classpathentry kind="lib" path="/usr/lib/hadoop-hdfs/lib/htrace-core4-4.0.1-incubating.jar"/>
 	<classpathentry kind="output" path="target/classes"/>
 </classpath>
